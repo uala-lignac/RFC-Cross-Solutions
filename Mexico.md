@@ -1,80 +1,41 @@
 ---
 stage: accepted
-start-date:
+start-date:20-03-2025
 
 teams: # list teams that are relevant
-  - 
+  - Cross Solutions
+  - Service Desk MX
+  - Noc MX
+  - TechOps MX
 
 project-link:
 ---
 
-<!---
-Directions for above:
-
-stage: Leave as is
-start-date: Fill in with today's date, 2032-12-01
-teams: Include only the for which this RFC applies
-project-link: Leave as is
--->
-
-<-- Replace "RFC title" with the title of your RFC -->
-# RFC Title 
+# RFC Mejoras Mexico
 
 ## Summary
 
-> One paragraph explanation of the deprecation.
+Hacer que los equipos tanto de Mexico como Argentina trabajen de forma regional y no por separado.
 
 ## Motivation
 
-> Why are we doing this? What are the problems with the deprecated feature?
-What is the replacement functionality?
+Es necesario impulsar Mexico como OKR de la empresa, para ello trabajaremos en un proyecto de unificacion de procesos e impulso de tareas conjuntas para nivel 1, 2 y monitoreo de Noc.
 
 ## Transition Path
 
-> This is the bulk of the RFC. Explain the use-cases that deprecated functionality
-covers, and for each use-case, describe the transition path.
-Describe it in enough detail for someone who uses the deprecated functionality
-to understand, for someone to write the deprecation guide, and for someone
-familiar with the implementation to implement.
+NOC MX
+- Relevamiento de tareas, servicios, procesos y proveedores.
+- Tiempos de proyecto migracion Core a AWS.
+- Plan de monitoreo desde Noc AR de infraestructura migrada a AWS desde MX.
+- Plan de convivencia monitoreo AWS y servicios On Premise locales en MX entre ambos equipos.
+- Plan de monitoreo 100% desde AR con servicios migrados completamente.
+- Funciones equipo MX post migracion de monitoreo.
 
-> It can be helpful to write the deprecation guide as part of this section. Published deprecation
-> guides can be found at https://deprecations.emberjs.com/.
-
-> Please keep in mind any implications within the Ember ecosystem, such as:
-> - Lint rules (ember-template-lint, eslint-plugin-ember) that should be added, modified or removed
-> - Features that are replaced or made obsolete by this feature and should eventually be deprecated
-> - Ember Inspector and debuggability
-> - Server-side Rendering
-> - Ember Engines
-> - The Addon Ecosystem
-> - IDE Support
-> - Blueprints that should be added or modified
-
-## How We Teach This
-
-> Would the acceptance of this proposal mean the Ember guides must be
-re-organized or altered? Does it change how Ember is taught to new users
-at any level?
-Does it mean we need to put effort into highlighting the replacement
-functionality more? What should we do about documentation, in the guides
-related to this feature?
-How should this deprecation be introduced and explained to existing Ember
-users?
-
-> Keep in mind the variety of learning materials: API docs, guides, blog posts, tutorials, etc.
-
-## Drawbacks
-
-> Why should we *not* do this? Please consider the impact on teaching Ember,
-on the integration of this feature with other existing and planned features,
-on the impact of the API churn on existing apps, etc.
-There are tradeoffs to choosing any path, please attempt to identify them here.
-
-## Alternatives
-
-> What other designs have been considered? What is the impact of not doing this?
+Service Desk MX
+- Completar regionalizacion con AR.
+- Evaluar reporte de colaboradores en MX para trabajar en conjunto con AR.
+- Budget anual MX: migracion a budget AR
+- Control 100% desde AR de gestion, uniendo servicio con Net Support
 
 ## Unresolved questions
 
-> Optional, but suggested for first drafts. What parts of the design are still
-TBD?
